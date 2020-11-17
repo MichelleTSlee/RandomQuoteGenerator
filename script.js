@@ -1,9 +1,9 @@
 const quote = document.getElementById("text");
 const author = document.getElementById("author");
-const newQuote = document.getElementById("new-quote"); //Butoon
+const newQuote = document.getElementById("new-quote");
 
 
-newQuote.addEventListener("click", getQuote); //Button
+newQuote.addEventListener("click", getQuote); 
 
 
 function getQuote(){
